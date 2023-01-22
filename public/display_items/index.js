@@ -1,6 +1,12 @@
 console.log("Display Page");
 
 let containerElement = document.getElementById('container')
+let homeLink = document.getElementById('home')
+
+homeLink.addEventListener('click', () => {
+    // change HTML files (from index to display_food.html)
+    window.location.href = "../index.html"
+})
 
 const getData = async () => {
     let data = await fetch("/get_data");

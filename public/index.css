@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8534854.jpg&f=1&nofb=1&ipt=deb7b3820a90870eed98999205b33bc1c9b6ea87f5c70dfb2a87189592b06b7a&ipo=images');
+}
+
+
+li, a, button {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(17, 212, 176);
+    text-decoration: none;
+} 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #2b64b3;
+   
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(63, 77, 234);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#container {
+    color: rgb(17, 212, 176);
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
